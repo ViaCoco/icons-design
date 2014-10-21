@@ -1,0 +1,113 @@
+/* -------------------------------- 
+
+Intro
+
+-------------------------------- */
+
+.intro {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+    
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.intro-presentation {  
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3em 1em;
+
+    .title-intro {
+        width: 100%;
+        display: block;
+        vertical-align: middle;
+
+        h3 {
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+            padding: 0;
+        }
+
+        p {
+            font-size: 2em;
+            text-align: center;
+            color: $color-3;
+            padding: 0;
+            line-height: 0.5;
+            margin: 0;
+        }
+    }
+}    
+
+@include MQ(M) {
+
+    .intro-presentation {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 0 0 2em;
+   
+        .title-intro {
+            margin-top: 10%;
+            width: 100%;
+            display: inline-block;
+            vertical-align: middle;
+
+            h3 {
+                font-size: 2em;
+            }
+                
+            p {
+                font-size: 3em;
+            } 
+        }  
+    }
+}
+
+@include MQ(L) {
+
+    .intro-presentation {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 0 0 2em;
+
+        .title-intro {
+            margin-top: 10%;
+            width: 100%;
+            display: inline-block;
+            vertical-align: middle;
+
+            h3 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 3em;
+            }
+        } 
+    }
+}
+
+

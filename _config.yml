@@ -1,0 +1,16 @@
+# Site settings
+title: Icons of slovenian design
+email: masa.cernovsek@gmail.com
+description: "Icons of slovenian design presented as UI icons"
+baseurl: "/icons"
+url: "http://viacoco.github.io/icons/"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+sass:
+    sass_dir: assets/stylesheet/_sass
+    style: compressed

@@ -1,0 +1,214 @@
+/* -------------------------------- 
+
+Default style
+
+-------------------------------- */
+
+*, *:after, *:before {
+    @include box-sizing(border-box);
+}
+
+body {
+    overflow-x: hidden;
+    font: {
+        size: 100%;
+        family: $body-font; // variables inside partials > _variables.scss
+    }
+    color: rgba($black, .7);
+    background-color: $color-1;
+
+    &.overflow-hidden {
+        /* when primary navigation is visible, the content in the background won't scroll */
+        overflow: hidden;
+    }
+}
+
+a {
+    color: $off-white-color;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* -------------------------------- 
+
+Modules
+
+-------------------------------- */
+
+.container { /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+    width: 90%;
+    max-width: $M; // breakpoints inside partials > _layout.scss
+    margin: 0 auto;
+    @include clearfix;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+html, body {
+    height: 100%;
+}
+
+
+/* HEADER */
+
+.nav {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    z-index: 4;
+    
+    .btn {
+        display: inline-block;
+        padding: 0.3em;
+        width: 100%;
+    }
+
+    a { 
+        font: {
+            family: $title-font;
+            weight: 700;
+        }
+        display: block;
+        color: rgba(white, 0.7);
+
+        &:hover {
+            color: white;
+        }
+
+        img {
+            visibility: hidden;
+            height: 0;
+            width: auto;
+            margin: 0 auto;
+        }
+
+        b {
+            font-size: 0.8em;
+            padding: 0.2em;
+        }
+    }
+
+    .btn {
+        background-color: $color-2;
+       
+        &:hover {
+            background-color: rgba($color-1, .3);
+        }
+    }
+}
+
+@include MQ(M) {
+
+    .nav {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        padding: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        z-index: 4;
+
+        .btn {
+            display: inline-block;
+            padding: 1em;
+            width: 20%;
+    
+            img {
+                visibility: visible;
+                display: block;
+                height: 5em;
+                width: auto;
+                margin: 0 auto;
+            }
+       
+            b {
+                padding: 0.2em;
+            }
+        }
+    }
+}
+
+@include MQ(L) {
+ 
+    .nav {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        padding: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        z-index: 4;
+
+        .btn {
+            display: inline-block;
+            padding: 1em;
+            width: 20%;
+    
+            img {
+                visibility: visible;
+                display: block;
+                height: 5em;
+                width: auto;
+                margin: 0 auto;
+            }
+    
+            b {
+                padding: 0.2em;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $color-3;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    position: fixed;
+    z-index: 3;
+    padding: 2px;
+
+    .mypage {
+        position: absolute;
+        width: auto;
+        height: 30px;
+        right: 5px;
+        padding: 2px;
+        @include center(y);
+    }
+
+    a {
+        font: {
+            family: $title-font;
+            weight: 400;
+            size: 12px;
+            }
+        line-height: 16px;
+        color: rgba(white, .6);
+    }
+
+    .back {
+        position: relative;
+        width: auto;
+        height: 30px;
+        left: 5px;
+        margin-top: 2px;
+        padding: 2px 8px;
+        border: dotted 3px $color-2;
+
+    }
+}

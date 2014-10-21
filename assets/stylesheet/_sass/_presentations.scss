@@ -1,0 +1,233 @@
+.icons-presentation {
+	width: 100%;
+	height: auto;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	z-index: 1;
+  	padding: 0 2em;
+  	padding-bottom: 10em;	
+
+	.title {
+  		position: relative;
+  		width: 90%;
+  		left: 5%;
+  		display: block;
+  		margin-top: 20%;
+
+  		h3 {
+  			font-size: 1em;
+			text-align: center;
+			color: white;
+			padding: 0;
+  		}
+
+  		p {
+  			font-size: 2em;
+  			text-align: center;
+			color: $color-3;
+			padding: 0;
+			line-height: 0.2;
+			margin: 0;
+  		}
+	}
+
+  	@include MQ(M) {
+		.title {
+			position: relative;
+			width: 33%;
+  			left: 2%;
+  			display: inline-block;
+			vertical-align: middle;
+
+			h3 {
+  				font-size: 1.2em;
+  			}
+
+  			p {
+  				font-size: 3em;
+  				line-height: 0.5;
+			}	
+		}		
+	}
+
+	@include MQ(L) {
+		.title {
+			position: relative;
+			width: 33%;
+  			left: 2%;
+  			display: inline-block;
+			vertical-align: middle;
+
+			h3 {
+  				font-size: 1.2em;
+  			}
+
+  			p {
+  				font-size: 3em;
+			}	
+		}
+	}
+
+  	img {
+		vertical-align: middle;
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		margin: 0 auto;
+		z-index: 2;
+		padding: 0 3em;
+	}
+
+	@include MQ(M) {
+		img {
+			margin-top: 5%;
+			width: 33%;
+			display: inline-block;
+		}		
+	}
+
+	@include MQ(L) {
+		img {
+			width: 33%;
+			display: inline-block;
+		}	
+	}
+
+	.btn {
+		margin: 0 auto;
+		width: 10em;
+		font-size: 1.2em;
+		text-align: center;
+		color: white;
+		padding: 0;
+		border: 0.2em dotted $color-3;
+	}
+
+	.icons-about {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 15%;
+		display: block;
+
+		img {
+			width: 60%;
+			height: auto;
+			padding: 0;
+		}
+	}
+
+	@include MQ(M) {
+		.icons-about {
+			margin-top: 25%;
+			width: 30%;
+			display: inline-block;
+
+			img {
+				width: 100%;
+				height: auto;
+				padding: 1em;
+			}
+		}	
+	}
+
+	@include MQ(L) {
+		.icons-about {
+			margin-top: 0;
+			width: 30%;
+			display: inline-block;
+
+			img {
+				width: 100%;
+				height: auto;
+				padding: 1em;
+			}
+		}
+	}
+
+
+	.text {
+		max-width: 100%;
+		margin-left: 0;
+		margin-top: 10%;
+		padding-bottom: 20%;
+  		display: block;
+
+		p {	
+			width: 100%;
+			display: block;
+			font-size: 1em;
+			color: white;
+			padding: 0.5em 1em;
+			line-height: 1.3em;
+			font-weight: 300;
+		}
+
+		-webkit-animation-delay: 0.5s;
+		-moz-animation-delay: 0.5s;
+		-o-animation-delay: 0.5s;
+		animation-delay: 0.5s;
+
+		-webkit-animation-duration: 1.5s;
+		-moz-animation-duration: 1.5s;
+		-o-animation-duration: 1.5s;
+		animation-duration: 1.5s;
+	}
+
+	@include MQ(M) {
+		.text {
+			width: 60%;
+			margin-left: 5%;
+			margin-top: 5%;
+			display: inline-block;
+			padding: 1em;
+
+			p {	
+				width: 100%;
+				padding: 0.5em 1em;
+			}
+		}		
+	}
+
+	@include MQ(L) {
+		.text {
+			width: 60%;
+			margin-left: 5%;
+			margin-top: 5%;
+			display: inline-block;
+			padding: 1em;
+
+			p {	
+				width: 100%;
+				padding: 0.5em 1em;
+			}
+		}	
+	}
+
+	@include MQ(M) {
+		.icons-presentation {	
+  			width: 100%;
+  			height: auto;
+			position: fixed;
+  			top: 0;
+  			left: 0;
+  			z-index: 1;
+  			padding: 0 2em;
+  			padding-bottom: 5em;
+		}	
+	}
+
+	@include MQ(L) {
+		.icons-presentation {
+ 			width: 100%;
+  			height: auto;
+  			position: fixed;
+  			top: 0;
+  			left: 0;
+  			z-index: 1;
+  			padding: 0 2em;
+  			padding-bottom: 5em;
+		}
+	}
+}
