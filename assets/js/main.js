@@ -1,8 +1,9 @@
-$("window").load(function() {
+$(document).ready(function(){
+
+  $("window").load(function() {
   $("body").removeClass("preload");
 });
 
-$(document).ready(function(){
     function animationHover(element, animation){
   element = $(element);
   element.hover(
