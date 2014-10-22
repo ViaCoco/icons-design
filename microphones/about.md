@@ -3,7 +3,7 @@ layout: default
 title: microphones
 ---
 
-<section >
+<section>
 	<img class="microphones" src="{{ site.baseurl }}/assets/images/backgrounds/ikone/mikrofoni_blue_blur.jpg">
 	<div class="icons-presentation">
 		<div class="icons-about">	

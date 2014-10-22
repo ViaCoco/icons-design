@@ -3,7 +3,7 @@ layout: default
 title: kiosk
 ---
 
-<section >
+<section>
 	<img class="kiosk" src="{{ site.baseurl }}/assets/images/backgrounds/ikone/kiosk_blue_blur.jpg">
 	<div class="icons-presentation">
 		<div class="icons-about">	

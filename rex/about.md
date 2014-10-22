@@ -3,7 +3,7 @@ layout: default
 title: rex
 ---
 
-<section >
+<section>
 	<img class="rex" src="{{ site.baseurl }}/assets/images/backgrounds/ikone/rex_blue_blur.jpg">
 	<div class="icons-presentation">
 		<div class="icons-about">	

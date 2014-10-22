@@ -3,7 +3,7 @@ layout: default
 title: eta
 ---
 
-<section >
+<section>
 	<img class="kiosk" src="{{ site.baseurl }}/assets/images/backgrounds/ikone/eta_blue_blur.jpg">
 	<div class="icons-presentation">
 		<div class="icons-about">	
