@@ -35,6 +35,9 @@ Intro
         width: 100%;
         display: block;
         vertical-align: middle;
+        text-transform: uppercase;
+        font-family: $title-font;
+        font-weight: 700;
 
         h3 {
             font-size: 1.5em;
