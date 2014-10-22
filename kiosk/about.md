@@ -8,7 +8,7 @@ title: kiosk
 	<div class="icons-presentation">
 		<div class="icons-about">	
 			<img class="animated fadeInLeft" src="{{ site.baseurl }}/assets/images/svg-thin/kiosk-w.svg" >
-				<a href="https://www.google.si/search?q=kiosk+k-67&es_sm=93&biw=1301&bih=579&source=lnms&tbm=isch&sa=X&ei=2V5GVM7oKcH8ygPCmIDQBQ&ved=0CAYQ_AUoAQ#tbm=isch&q=kiosk+k67&spell=1">
+				<a href="https://www.google.si/search?q=kiosk+k-67&es_sm=93&biw=1301&bih=579&source=lnms&tbm=isch&sa=X&ei=2V5GVM7oKcH8ygPCmIDQBQ&ved=0CAYQ_AUoAQ#tbm=isch&q=kiosk+k67&spell=1" target="_blank">
 					<div class="btn animated fadeInUp">google it!</div>
 				</a>
 		</div>

@@ -8,7 +8,7 @@ title: cockta
 	<div class="icons-presentation">
 		<div class="icons-about">	
 			<img class="animated fadeInLeft" src="{{ site.baseurl }}/assets/images/svg-thin/cockta-w.svg">
-				<a href="https://www.google.si/search?q=cockta+bottle+sergej+pavlin&es_sm=93&biw=1301&bih=579&source=lnms&tbm=isch&sa=X&ei=rGVGVIuyLua6ygPa84KwBQ&ved=0CAYQ_AUoAQ">
+				<a href="https://www.google.si/search?q=cockta+bottle+sergej+pavlin&es_sm=93&biw=1301&bih=579&source=lnms&tbm=isch&sa=X&ei=rGVGVIuyLua6ygPa84KwBQ&ved=0CAYQ_AUoAQ" target="_blank">
 					<div class="btn animated fadeInUp">google it!</div>
 				</a>
 		</div>

@@ -8,7 +8,7 @@ title: rex
 	<div class="icons-presentation">
 		<div class="icons-about">	
 			<img class="animated fadeInLeft" src="{{ site.baseurl }}/assets/images/svg-thin/rex-w.svg" >
-				<a href="https://www.google.si/search?q=rex+niko+kralj&es_sm=93&source=lnms&tbm=isch&sa=X&ei=HlxGVKrdFaa7ygOq5oH4Bw&ved=0CAgQ_AUoAQ&biw=1301&bih=579">
+				<a href="https://www.google.si/search?q=rex+niko+kralj&es_sm=93&source=lnms&tbm=isch&sa=X&ei=HlxGVKrdFaa7ygOq5oH4Bw&ved=0CAgQ_AUoAQ&biw=1301&bih=579" target="_blank">
 					<div class="btn animated fadeInUp">google it!</div>
 				</a>
 		</div>

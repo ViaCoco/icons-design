@@ -8,7 +8,7 @@ title: microphones
 	<div class="icons-presentation">
 		<div class="icons-about">	
 			<img class="animated fadeInLeft" src="{{ site.baseurl }}/assets/images/svg-thin/micro-w.svg" >
-				<a href="https://www.google.si/search?q=marko+turk+microphones&es_sm=93&biw=1301&bih=579&source=lnms&tbm=isch&sa=X&ei=HxVEVP_GF8PpaIKKgcAG&sqi=2&ved=0CAYQ_AUoAQ#tbm=isch&q=marko+turk+mikrofon">
+				<a href="https://www.google.si/search?q=marko+turk+microphones&es_sm=93&biw=1301&bih=579&source=lnms&tbm=isch&sa=X&ei=HxVEVP_GF8PpaIKKgcAG&sqi=2&ved=0CAYQ_AUoAQ#tbm=isch&q=marko+turk+mikrofon" target="_blank">
 					<div class="btn animated fadeInUp">google it!</div>
 				</a>
 		</div>
